@@ -1,0 +1,17 @@
+[package]
+name = "otel-genai-bridge"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.75"
+authors = ["MukundaKatta"]
+description = "Translate LLM telemetry attributes between OpenInference and OpenTelemetry GenAI semantic conventions. No telemetry SDK dependency."
+license = "MIT"
+repository = "https://github.com/MukundaKatta/otel-genai-bridge-rs"
+homepage = "https://github.com/MukundaKatta/otel-genai-bridge-rs"
+documentation = "https://docs.rs/otel-genai-bridge"
+readme = "README.md"
+keywords = ["llm", "opentelemetry", "openinference", "observability", "tracing"]
+categories = ["api-bindings", "development-tools"]
+
+[dependencies]
+serde_json = "1"
